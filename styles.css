@@ -16,7 +16,7 @@ body{
     height: 100vh;
     position: relative;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5rem;
     color: aliceblue;
 }
 .bg-top{
@@ -45,7 +45,7 @@ body{
 }
 .countdown{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     
 }
 .countdown-item{
@@ -57,13 +57,13 @@ body{
 
 }
 .countdown-number{
-    background-color: #484858;
+    background-color: #2a2a38;
     padding: 1rem 2rem;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     font-weight: 700;
-    color: rgb(218, 110, 164);
+    color: rgb(201, 61, 108);
 }
 .countdown-text{
     font-size: 0.8rem;
@@ -71,4 +71,20 @@ body{
     text-transform: uppercase;
     opacity: 0.6;
     
+}
+.heading{
+    font-size: x-small;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.icon-links {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+}
+.icon-links a:hover > svg> path{
+    fill: #ff6b6b;
 }
