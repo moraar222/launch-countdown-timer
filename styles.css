@@ -51,16 +51,20 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    perspective: 1000px;
 }
 .countdown-number{
     background-color: #2a2a38;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    width: 100px; /* Adjust width to match the image */
+    height: 100px; /* Adjust height to match the image */
     border-radius: 10px;
-    box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5), inset 0 -4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.4);
-    font-size: 4rem;
+    box-shadow: 0 5px 0 #1e1e28, 0 10px 15px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
     font-weight: 700;
     color: rgb(201, 61, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
 }
